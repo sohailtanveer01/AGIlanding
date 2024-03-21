@@ -1,7 +1,7 @@
-import brainwave from "./brainwave.svg";
+import AskAGI  from "./askAGI.svg";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
+import AskAGISymbol from "./askAGI-symbol.svg";
+import AskAGIWhiteSymbol from "./askAGI-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
@@ -22,7 +22,8 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import robot from "./hero/slazzer-edit-image.png";
+import askagiPreview from "./hero/askagi_prev_ui.png";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -67,6 +68,14 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
+import benefitIcon5 from "./benefits/icon-5.svg";
+import benefitIcon6 from "./benefits/icon-6.svg";
+import benefitIcon7 from "./benefits/icon-7.svg";
+import benefitIcon8 from "./benefits/icon-8.svg";
+import benefitIcon9 from "./benefits/icon-9.svg";
+import benefitIcon10 from "./benefits/icon-10.svg";
+
+
 import benefitImage2 from "./benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
@@ -76,12 +85,12 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  brainwave,
+  AskAGI ,
   check,
   check2,
   loading1,
-  brainwaveSymbol,
-  brainwaveWhiteSymbol,
+  AskAGISymbol,
+  AskAGIWhiteSymbol,
   play,
   gradient,
   smallSphere,
@@ -100,6 +109,7 @@ export {
   background,
   curve,
   robot,
+  askagiPreview,
   heroBackground,
   curve1,
   curve2,
@@ -138,6 +148,12 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
+  benefitIcon7,
+  benefitIcon8,
+  benefitIcon9,
+  benefitIcon10,
   benefitImage2,
   discordBlack,
   facebook,

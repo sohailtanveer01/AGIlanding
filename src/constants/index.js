@@ -3,6 +3,12 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
+  benefitIcon7,
+  benefitIcon8,
+  benefitIcon9,
+  benefitIcon10,
   benefitImage2,
   chromecast,
   disc02,
@@ -45,18 +51,18 @@ export const navigation = [
   {
     id: "1",
     title: "Pricing",
-    url: "#pricing",
+    url: "/pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "use cases",
     url: "#how-to-use",
   },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
+  // {
+  //   id: "3",
+  //   title: "Roadmap",
+  //   url: "#roadmap",
+  // },
   {
     id: "4",
     title: "New account",
@@ -77,13 +83,13 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = [
+export const AskAGIServices = [
   "Photo generating",
   "Photo enhance",
   "Seamless Integration",
 ];
 
-export const brainwaveServicesIcons = [
+export const AskAGIServicesIcons = [
   recording03,
   recording01,
   disc02,
@@ -133,16 +139,33 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "workflowEfficiency",
+    text: "Streamlined tasks and automated processes result in significant time and resource savings, enabling focus on high-value activities.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "workflowEfficiency",
+    text: "Streamlined tasks and automated processes result in significant time and resource savings, enabling focus on high-value activities.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "workflowEfficiency",
+    text: "Streamlined tasks and automated processes result in significant time and resource savings, enabling focus on high-value activities.",
+  },
+  {
+    id: "3",
+    title: "workflowEfficiency",
+    text: "Streamlined tasks and automated processes result in significant time and resource savings, enabling focus on high-value activities.",
+  },
+  {
+    id: "4",
+    title: "workflowEfficiency",
+    text: "Streamlined tasks and automated processes result in significant time and resource savings, enabling focus on high-value activities.",
+  },
+  {
+    id: "5",
+    title: "workflowEfficiency",
+    text: "Streamlined tasks and automated processes result in significant time and resource savings, enabling focus on high-value activities.",
   },
 ];
 
@@ -244,16 +267,18 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Technology",
+    text: "Leverage AI for innovative product development.",
+    details: "Utilize AI to create cutting-edge products and enhance the development process.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Healthcare",
+    text: "Improve patient care through data analysis",
+    details: "Analyze patient data to provide personalized care and treatment plans.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +286,18 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Finance",
+    text: "Automate customer service, fraud detection, and risk management processes in Finance and Banking",
+    details: "Implement AI solutions to enhance customer service, detect fraud more efficiently, and manage risks.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Manufacturing",
+    text: "Enhance production efficiency",
+    details: "Implement AI to optimize manufacturing processes and increase production efficiency.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,18 +305,67 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Retail",
+    text: "Personalize shopping experiences.",
+    details: "Use AI to tailor shopping experiences to individual customer preferences, increasing engagement and sales.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: benefitIcon5,
+    imageUrl: benefitImage2,
+  },
+
+  {
+    id: "5",
+    title: "Education",
+    text: "AI-driven tutoring",
+    details: "Deploy AI tutors to provide personalized learning experiences for students.",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: benefitIcon6,
+    imageUrl: benefitImage2,
+  },
+  
+  {
+    id: "6",
+    title: "Hospitality",
+    text: "Enhance customer experience through personalized services",
+    details: "Utilize AI to offer personalized services to guests, improving their overall experience.",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
   {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    id: "7",
+    title: "Automotive",
+    text: "Optimize supply chain management",
+    details: "Implement AI to streamline supply chain operations and reduce costs in the automotive industry.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: benefitIcon7,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "8",
+    title: "Legal",
+    text: "Automate document analysis and management",
+    details: "Leverage AI to automate the analysis and management of legal documents, improving efficiency.",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: benefitIcon8,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "9",
+    title: "Logistics",
+    text: "Optimize route planning",
+    details: "Use AI to optimize logistics route planning, saving time and fuel.",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: benefitIcon9,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "10",
+    title: "Travel",
+    text: "Enhance booking systems",
+    details: "Utilize AI to improve travel booking systems, making them more efficient and user-friendly.",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: benefitIcon10,
     imageUrl: benefitImage2,
   },
 ];

@@ -1,27 +1,27 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
-  PhotoChatMessage,
   Gradient,
-  VideoBar,
-  VideoChatMessage,
+
 } from "./design/Services";
 
-import Generating from "./Generating";
+
 
 const Services = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="AI made for Businesses & Users."
+          text="AskAGI unlocks the potential of AI-powered applications"
         />
+        <h2 className="mb-6">For Businesses</h2>
+
 
         <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+
+          <div className="flex gap-[1rem] max-lg:flex-wrap">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
                 className="w-full h-full object-cover md:object-right"
@@ -30,101 +30,174 @@ const Services = () => {
                 height={730}
                 src={service1}
               />
+
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
-              </p>
-              <ul className="body-2">
-                {brainwaveServices.map((item, index) => (
-                  <li
-                    key={index}
-                    className="flex items-start py-4 border-t border-n-6"
-                  >
-                    <img width={24} height={24} src={check} />
-                    <p className="ml-4">{item}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
 
-            <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
-          </div>
 
-          <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
-              <div className="absolute inset-0">
-                <img
-                  src={service2}
-                  className="h-full w-full object-cover"
-                  width={630}
-                  height={750}
-                  alt="robot"
-                />
-              </div>
+            <Section className="overflow-hidden" id="businesses">
+              <div className="container relative z-2">
 
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
-                </p>
-              </div>
+                <div className="relative">
 
-              <PhotoChatMessage />
-            </div>
 
-            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
-              <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
-                <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
-                </p>
-
-                <ul className="flex items-center justify-between">
-                  {brainwaveServicesIcons.map((item, index) => (
-                    <li
-                      key={index}
-                      className={`rounded-2xl flex items-center justify-center ${
-                        index === 2
-                          ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
-                          : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
-                      }`}
+                  <div className="flex gap-[1rem] max-lg:flex-wrap">
+                    <div
+                      className="w-[19rem] max-lg:w-full h-full px-6  border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
                     >
-                      <div
-                        className={
-                          index === 2
-                            ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
-                            : ""
-                        }
-                      >
-                        <img src={item} width={24} height={24} alt={item} />
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+                      <h4 className="h4 mb-4">Data Empowerment</h4>
 
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                <img
-                  src={service3}
-                  className="w-full h-full object-cover"
-                  width={520}
-                  height={400}
-                  alt="Scary robot"
-                />
 
-                <VideoChatMessage />
-                <VideoBar />
+
+                      <ul>
+                        <li
+                          className="flex items-start py-5 border-t border-n-6"
+                        >
+                          <p className="body-2 ml-4">
+                            Leverages proprietary data to enhance operational efficiency, enabling businesses to make data-driven decisions
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div
+                      className="w-[19rem] max-lg:w-full h-full px-6  border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
+                    >
+                      <h4 className="h4 mb-4">Work Flow Optimization</h4>
+
+
+
+                      <ul>
+                        <li
+                          className="flex items-start py-5 border-t border-n-6"
+                        >
+                          <p className="body-2 ml-4">
+                          Automates repetitive tasks and streamlines processes, significantly improving efficiency and reducing manual labor.                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      className="w-[19rem] max-lg:w-full h-full px-6  border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
+                    >
+                      <h4 className="h4 mb-4">Strategic Achievement</h4>
+
+
+
+                      <ul>
+                        <li
+                          className="flex items-start py-5 border-t border-n-6"
+                        >
+                          <p className="body-2 ml-4">
+                          Facilitates the achievement of strategic business objectives with enhanced precision and agility, optimizing performance across all functions.                          </p>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
               </div>
-            </div>
+            </Section>
+
+
           </div>
+
 
           <Gradient />
         </div>
+
+
+
+        <h1 className="mt-6 mb-4">For Internal & External Users</h1>
+        <div className="relative">
+
+          <div className="flex gap-[1rem] max-lg:flex-wrap">
+            <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
+              <img
+                className="w-full h-full object-cover md:object-right"
+                width={800}
+                alt="Smartest AI"
+                height={730}
+                src={service3}
+              />
+
+            </div>
+
+
+
+            <Section className="overflow-hidden" id="users">
+              <div className="container relative z-2">
+
+                <div className="relative">
+
+
+                  <div className="flex gap-[1rem] max-lg:flex-wrap">
+                    <div
+                      className="w-[19rem] max-lg:w-full h-full px-6  border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
+                    >
+                      <h4 className="h4 mb-4">Multi User Environment</h4>
+
+
+
+                      <ul>
+                        <li
+                          className="flex items-start py-5 border-t border-n-6"
+                        >
+                          <p className="body-2 ml-4">
+                          Supports a collaborative multi-user environment with fine-grained access controls, enhancing teamwork while maintaining data security.<br/>
+
+                          Built for multi-user from the start, with fine-grained permissions and access control built-in.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div
+                      className="w-[19rem] max-lg:w-full h-full px-6  border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
+                      >
+                      <h4 className="h4 mb-4">securityAndCompliance</h4>
+
+
+
+                      <ul>
+                        <li
+                          className="flex items-start py-5 border-t border-n-6"
+                        >
+                          <p className="body-2 ml-4">
+                          Ensures secure compliance readiness, aligning with business and privacy compliance protocols.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                    {/* <div
+                      className="w-[19rem] max-lg:w-full h-full px-6  border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
+                    >
+                      <h4 className="h4 mb-4">Data Empowerment</h4>
+
+
+
+                      <ul>
+                        <li
+                          className="flex items-start py-5 border-t border-n-6"
+                        >
+                          <p className="body-2 ml-4">
+                            Leverages proprietary data to enhance operational efficiency, enabling businesses to make data-driven decisions
+                          </p>
+                        </li>
+                      </ul>
+                    </div> */}
+
+                  </div>
+                </div>
+              </div>
+            </Section>
+
+
+          </div>
+
+
+          <Gradient />
+        </div>
+
       </div>
     </Section>
   );
