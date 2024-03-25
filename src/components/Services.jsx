@@ -154,7 +154,7 @@ const Services = () => {
                     <div
                       className="w-[19rem] max-lg:w-full h-full px-6  border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-1 [&>h4]:last:text-color-3"
                       >
-                      <h4 className="h4 mb-4">securityAndCompliance</h4>
+                      <h4 className="h4 mb-4">security & Compliance</h4>
 
 
 
